@@ -1,0 +1,6 @@
+import seaborn as sns
+
+from matplotlib import pyplot as plt
+import numpy as np
+planilha = sns.load_dataset("https://www.dropbox.com/s/jaxohe9ro8bimqt/planilha%20bem%20resumida%20da%20simula%C3%A7%C3%A3o%20de%20v%C3%ADrus%20em%20sala%20de%20aula2.csv?dl=0")
+planilha.head()
